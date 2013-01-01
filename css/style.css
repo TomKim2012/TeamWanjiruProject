@@ -205,8 +205,8 @@ h3#search {
 }
 
 #logo_wrap {
-    padding: 20px 10px;
-    height: 80px;
+    padding: 0px 10px;
+    height: 160px;
     position: relative;
 }
 
@@ -218,16 +218,16 @@ h3#search {
     float: left;
 }
 
-    #the_logo h1 {
-        margin: 0;
-        padding: 0;
-        height: 80px;
-        line-height: 80px;
-    }
+#the_logo h1 {
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    line-height: 80px;
+}
 
-    #the_logo a:hover {
-        text-decoration: none
-    }
+#the_logo a:hover {
+    text-decoration: none
+}
 
 #header #searchform {
     float: right;
@@ -239,12 +239,12 @@ h3#search {
     border-bottom: 1px solid #C8C8C8;
     position: relative;
     z-index: 4;
-    margin-top: -10px;
+    margin-top: 30px;
 }
 
 #content .container-inside{
         padding: 19px;
-        width: 920px;
+        width: 1040px;
         position: relative;
         background-color: #FFFFFF;
         border-width: 1px 1px 2px;
@@ -258,9 +258,7 @@ h3#search {
         box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.03) inset;
 }
 
-input[type="submit"],
-.button,
-.scheme_red #main_menu #donate_now {
+input[type="submit"],.button,.scheme_red #main_menu #donate_now {
     outline: none;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -750,7 +748,8 @@ blockquote {
 }
 
 .campaign_email_slide {
-    background-color: #F5F5F5
+    background-color: #F5F5F5;
+    opacity: 0.97;
 }
 
 #slide_widget_inner {
@@ -854,11 +853,11 @@ h1.slabtextdone {
 /* === Slider Area === */
 
 #slides_wrap {
-    width: 920px;
+    width: 1040px;
     min-height: 332px;
     background: #FFFFFF;
-    padding: 19px 19px 29px;
-    margin: -19px;
+    padding:0px;
+    margin: auto;
     -webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.03) inset;
     -moz-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.03) inset;
     box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.03) inset;
@@ -869,7 +868,7 @@ h1.slabtextdone {
 }
 
 #slides {
-    width: 600px;
+    width: 1040px;
     height: 332px;
     position: relative;
     display: block;
@@ -881,19 +880,19 @@ h1.slabtextdone {
     border: 0;
     display: block;
     height: 300px;
-    width: 600px;
+    width: 1040px;
     background-color: #FEFEFE;
 }
 
-    .slides_container .slide_image_wrap img {
-        padding: 0;
-        border: 0;
-        display: block;
-    }
+.slides_container .slide_image_wrap img {
+    padding: 0;
+    border: 0;
+    display: block;
+}
 
 .slides_container {
     height: 300px;
-    width: 600px;
+    width: 1040px;
     overflow: hidden;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -1702,14 +1701,16 @@ div.navigation {
     z-index: 5;
 }
 
-    .body_boxed #header #main_menu {
-        position: relative;
-        z-index: 5;
-        background-image: url("../images/ribbon_menu.png");
-        background-repeat: no-repeat;
-        margin: 0 auto -10px;
-        width: 100%;
-    }
+.body_boxed #header #main_menu {
+    position: relative;
+    background-color: #F0C434;
+    z-index: 5;
+    height: 40px;
+    background-image: url("../images/ribbon_men.png");
+    background-repeat: no-repeat;
+    margin: 0 auto -10px;
+    width: 80%;
+}
 
 .body_boxed #home_widgets:before {
     content: "";
@@ -1736,7 +1737,9 @@ div.navigation {
 #main_menu_wrap {
     position: relative
 }
-
+#main_menu_wrap .container{
+    width: 960px;
+}
 .body_span #main_wrap {
     overflow-x: hidden;
     min-width: 960px;
@@ -1924,7 +1927,9 @@ body_span.scheme_yellow #main_menu ul li ul {
 .bg_fabric {
     background: url("../images/bg_fabric.png") top center repeat #DDDDDD
 }
-
+.bg_rain {
+    background:url("../images/body_bg.gif") top center repeat #FFFFFF
+}
 .bg_cork {
     background: url("../images/bg_cork.png") top center repeat #DDDDDD
 }

@@ -30,7 +30,7 @@
     <!-- The Favicon -->
     <link rel="shortcut icon" href="" />
 </head>
-  <body class="content_left bg_linen body_boxed scheme_yellow ">
+  <body class="content_left bg_rain body_boxed scheme_yellow ">
     <div id="main_wrap">
       <div class="wrapper" id="header">
         <div id="pre_header"></div>
@@ -38,7 +38,7 @@
           <div id="logo_wrap">
             <div id="the_logo">
               <a href="#" title="Campaign" class="left the_logo">
-                <img src="<?php echo base_url() ?>images/campaignlogo.png" alt="Campaign" id="logo" />
+                <img src="<?php echo base_url()?>images/Logo_design/campaignlogo.png" alt="Campaign" id="logo" />
               </a>
             </div>
             <div class="clear"></div>

@@ -37,6 +37,7 @@
       </div>
     </div>
     <!-- jQuery We Need -->
+    <script src="<?php echo base_url()?>js/jquery-1.7.2.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url() ?>ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url() ?>includes/js/jquery.slabtext.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url() ?>includes/js/jquery.easing.1.3.js"></script>
@@ -48,7 +49,6 @@
        <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="<?php echo base_url()?>js/jquery-1.7.2.min.js"></script>
     <script src="<?php echo base_url()?>js/bootstrap.js"></script>
     <script src="<?php echo base_url()?>js/faq.js"></script>
     <script src="<?php echo base_url()?>js/excanvas.min.js"></script>

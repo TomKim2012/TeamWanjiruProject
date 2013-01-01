@@ -1,16 +1,15 @@
-  <div class="container">
+<div class="container-inside">
     <div id="slides_wrap">
   <div id="slides">
-    <div class="slidearea slides_container">
+    <div class="slidearea slides_container">     
       <div>
         <div class="slide_image_wrap">
           <a href="#" title="Campaign Slide">
-            <img width="600" height="300" src="<?php echo base_url() ?>images/slider/htmlslide1.jpg" alt="Campaign Slide" />
+            <img width="1040" height="500" src="<?php echo base_url() ?>images/splash/banner2.png" alt="Campaign Slide" />
           </a>
         </div>
-      </div>
-      <div>
-          <img width="600" height="300" src="<?php echo base_url() ?>images/slider/governor.jpg" alt="Campaign Slide" />
+
+    <!--
       </div>
         <div>
           <img width="600" height="300" src="<?php echo base_url() ?>images/slider/starehe.jpg" alt="Campaign Slide" />
@@ -27,6 +26,7 @@
             <img width="600" height="300" src="<?php echo base_url() ?>images/slider/htmlslide2.jpg" alt="Campaign Slide" />
           </a>
         </div>
+      -->
       </div>
     </div>
   </div>
@@ -66,28 +66,28 @@
     </div>
   </div>
 
-
   <div class="clear"></div>
 </div>
+<!--
 <div id="home_widgets">
   <div id="home_widget_wrap">
     <div class="widget">
-      <div><img  src="<?php echo base_url() ?>images/slider/campaign-attend.png" alt="VIEW EVENTS" /><a href="#" class="button button_gray">VIEW EVENTS</a></div>
+      <div><img  src="<?php echo base_url() ?>images/slider/campaign-attend.png" alt="VIEW EVENTS" /><a href="<?php echo site_url('events')?>" class="button button_gray">VIEW EVENTS</a></div>
       
     </div>
     <div class="widget">
      
-      <div><img  src="<?php echo base_url() ?>images/slider/campaign-donate.png" alt="DONATE" /><a href="#" class="button button_gray">DONATE</a></div>
+      <div><img  src="<?php echo base_url() ?>images/slider/campaign-donate.png" alt="DONATE" /><a href="<?php echo site_url('project/campaign')?>" class="button button_gray">DONATE</a></div>
       
     </div>
     <div class="widget">
       
-      <div><img  src="<?php echo base_url() ?>images/slider/campaign-volunteer.png" alt="VOLUNTEER" /> <a href="#" class="button button_gray">VOLUNTEER</a></div>
+      <div><img  src="<?php echo base_url() ?>images/slider/campaign-volunteer.png" alt="VOLUNTEER" /> <a href="project/volunteer" class="button button_gray">VOLUNTEER</a></div>
      
     </div>
     <div class="clear"></div>
   </div>
-</div>
+</div> -->
 <div class="posts-wrap">
   <div id="home_latest_posts">
     <h3>Latest Posts</h3>
