@@ -9,6 +9,8 @@
     
     <!-- CSS -->
     <link rel="stylesheet" href="<?php echo base_url(); ?>css/style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="<?php echo base_url(); ?>css/flexslider/flexslider.css" type="text/css" media="screen" />
+
     <!-- The next line calls the font for the headings. Use it like this: "style-fontname.css". Options are bitter, droidsans, droidserif, franchise, museo, nevis, or rokkitt */ -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>fonts/style-nevis.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>includes/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
@@ -59,7 +61,9 @@
                   <li><a href="<?php echo site_url('project/contact')?>">Contact</a></li>
                 </ul>
               </div>
-              <a id="donate_now" class="button" href="<?php echo site_url('project/donate')?>" title="Make A Donation">Make A Donation</a>
+            </div>
+           <div id="donate_now" >
+              <a class="btn btn-large btn-success" href="<?php echo site_url('project/donate')?>">DONATE</a>
             </div>
           </div>
         </div>

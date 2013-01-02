@@ -45,6 +45,7 @@
     <script type="text/javascript" src="<?php echo base_url() ?>includes/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
     <script type="text/javascript" src="<?php echo base_url() ?>includes/js/slides.jquery.js"></script>
     <script type="text/javascript" src="<?php echo base_url() ?>includes/js/campaign.js"></script>
+
     
        <!-- Le javascript
     ================================================== -->
@@ -52,11 +53,7 @@
     <script src="<?php echo base_url()?>js/bootstrap.js"></script>
     <script src="<?php echo base_url()?>js/faq.js"></script>
     <script src="<?php echo base_url()?>js/excanvas.min.js"></script>
-    <script src="<?php echo base_url()?>js/jquery.flot.js"></script>
-    <script src="<?php echo base_url()?>js/jquery.flot.pie.js"></script>
-    <script src="<?php echo base_url()?>js/jquery.flot.orderBars.js"></script>
-    <script src="<?php echo base_url()?>js/jquery.flot.resize.js"></script>
-    <script src="<?php echo base_url()?>js/charts/bar.js"></script>
+    
     <script>
      $(function () {
         $('.faq-list').goFaq ();
