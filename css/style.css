@@ -600,21 +600,21 @@ border-left: 1px solid #EFEFEF;
 /* === Slide Widget === */
 
 #slide_widget {
-float: right;
-width: 300px;
-min-height: 300px;
-margin-bottom: -30px;
-display: block;
+   border-radius: 6px 6px 6px 6px;
+    display: block;
+    float: right;
+    margin: 20px 10px;
+    min-height: 200px;
+    width: 365px;
 }
 
 .campaign_email_slide {
-background-color: #F5F5F5;
-opacity: 0.97;
+background-color: rgba(0, 0, 0, 0.6);
 }
 
 #slide_widget_inner {
 display: table;
-height: 300px;
+height: 240px;
 }
 
 #slide_widget .widget {
@@ -629,6 +629,11 @@ text-align: center;
 color: #757575;
 }
 
+.campaign_email_capture_wrap span{
+    display: inline;
+    width: 50px;
+}
+
 #slide_widget .campaign_email_capture_wrap {
 width: 260px
 }
@@ -641,21 +646,23 @@ text-transform: none;
 }
 
 .campaign_email_capture_wrap h3 {
-text-transform: uppercase;
 margin: 0 !important;
 padding-bottom: 50px !important;
 background: url("../images/stars.png") bottom center no-repeat transparent;
 border: none !important;
+color: #FFFFFF;
+}
+.campaign_email_capture_wrap p {
+color: #ffffff;
 }
 
 .campaign_email_capture_wrap input[type="text"] {
-margin: 15px 0 0;
-width: 238px !important;
-text-align: center;
-font-size: 12px;
-font-weight: bold;
-text-transform: uppercase;
-color: #757575;
+    color: #757575;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 15px 0 0;
+    text-align: left;
+    width: 310px !important;
 }
 
 #sidebar .campaign_email_capture_wrap input[type="text"] {
@@ -713,14 +720,11 @@ width: 300px
 /* === Slider Area === */
 
 #slides_wrap {
-width: 1040px;
-min-height: 332px;
-background: #FFFFFF;
-padding:0px;
+background: url("../images/splash/banner2.png") no-repeat scroll 0 0 transparent;
 margin: auto;
--webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.03) inset;
--moz-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.03) inset;
-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.03) inset;
+min-height: 332px;
+padding: 0;
+width: 1040px;
 }
 
 #slides_wrap.home_space {

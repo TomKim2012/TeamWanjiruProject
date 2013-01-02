@@ -1,47 +1,50 @@
 <div class="container-inside">
     <div id="slides_wrap">
-    <div id="slides">
-    <div class="slidearea slides_container">     
-        <div>
-            <div class="slide_image_wrap">
-              <a href="#" title="Campaign Slide">
-                <img width="1040" height="330" src="<?php echo base_url() ?>images/splash/banner.png" alt="Campaign Slide" />
-              </a>
-            </div>
-        </div>
-         <div>
-            <div class="slide_image_wrap">
-              <a href="#" title="Campaign Slide">
-                <img width="1040" height="330" src="<?php echo base_url() ?>images/splash/banner2.png" alt="Campaign Slide" />
-              </a>
-            </div>
-        </div>
-         <div>
-            <div class="slide_image_wrap">
-              <a href="#" title="Campaign Slide">
-                <img width="1040" height="330" src="<?php echo base_url() ?>images/splash/banner3.png" alt="Campaign Slide" />
-              </a>
-            </div>
-        </div>
-         <div>
-            <div class="slide_image_wrap">
-              <a href="#" title="Campaign Slide">
-                <img width="1040" height="330" src="<?php echo base_url() ?>images/splash/banner4.png" alt="Campaign Slide" />
-              </a>
-              <div class="slide_text_overlay">
-                  This slide has a little bit of text overlaid on the bottom.
+   
+    <!--div id="slides">
+      <div class="slidearea slides_container">     
+          <div>
+              <div class="slide_image_wrap">
+                <a href="#" title="Campaign Slide">
+                  <img width="1040" height="330" src="<?php echo base_url() ?>images/splash/banner.png" alt="Campaign Slide" />
+                </a>
               </div>
-            </div>
-        </div>
-
-          
-    </div>
-  </div>
+          </div>
+           <div>
+              <div class="slide_image_wrap">
+                <a href="#" title="Campaign Slide">
+                  <img width="1040" height="330" src="<?php echo base_url() ?>images/splash/banner2.png" alt="Campaign Slide" />
+                </a>
+              </div>
+          </div>
+           <div>
+              <div class="slide_image_wrap">
+                <a href="#" title="Campaign Slide">
+                  <img width="1040" height="330" src="<?php echo base_url() ?>images/splash/banner3.png" alt="Campaign Slide" />
+                </a>
+              </div>
+          </div>
+           <div>
+              <div class="slide_image_wrap">
+                <a href="#" title="Campaign Slide">
+                  <img width="1040" height="330" src="<?php echo base_url() ?>images/splash/banner4.png" alt="Campaign Slide" />
+                </a>
+                <div class="slide_text_overlay">
+                    This slide has a little bit of text overlaid on the bottom.
+                </div>
+              </div>
+          </div>
+      </div>
+  </div-->
 
  <div id="slide_widget" class="campaign_email_slide">
     <div id="slide_widget_inner">
       <div class="widget campaign_email_capture_wrap">
-        <h4>JOIN THE HON BISHOP</h4>
+        <h3>STAND <i>with</i> Hon. Margaret</h3>
+
+        <p>"Join me and let's transform Nairobi to be the Number One Economy in Africa"<br>  
+            "<i>Mama na Kazi! </i>" </p>
+         <hr>
         <!--Check If user is logged In (Manually) -->
             <?php if(isset($firstname)&&isset($lastname)){ ?>
               <span id="account_icon"></span>
@@ -61,41 +64,42 @@
             <span><a href="<?php echo base_url().'index.php/home/facebook_request'?>"><img  src="<?php echo base_url()?>images/login/fb_login.png" alt="Join using Facebook"/></a></span>
             <span><a href="<?php echo base_url().'index.php/account/register'?>"><img  src="<?php echo base_url() ?>images/login/tw_login.png" alt="Join using Twitter"/></a></span>
              <?php } ?>
+           <br><p>OR</p>     
         <div id="campaign_email_capture">
           <form action="#" method="post">
             <div>
-              <input type="text" class="campaign-email-capture-name campaign-email-capture-name-active" name="campaign-email-capture-name" title="Your Name" />
-              <input type="text" class="campaign-email-capture-email campaign-email-capture-email-active" name="campaign-email-capture-email" title="Your Email" />
-              <input type="submit" class="campaign-email-capture-submit" value="Subscribe To Updates" name="Submit" />
+              <input type="text" class="campaign-email-capture-email" name="campaign-email-capture-email" title="Enter your Email Address here..">
+              <input type="submit" class="btn btn-large btn-success" value="JOIN" name="Submit">
+             
             </div>
           </form>
         </div>
       </div>
     </div>
   </div>
+
+
   <div class="clear"></div>
 </div>
 
-  <!--
   <div id="home_widgets">
     <div id="home_widget_wrap">
       <div class="widget">
-        <div><img  src="<?php echo base_url() ?>images/slider/campaign-attend.png" alt="VIEW EVENTS" /><a href="<?php echo site_url('events')?>" class="button button_gray">VIEW EVENTS</a></div>
-        
+        <div><img  src="<?php echo base_url() ?>images/slider/campaign-attend.png" alt="Campaign Trail" /><a href="<?php echo site_url('project/campaign')?>" class="button button_gray">The Campaign Trail</a></div>
+      </div>
+
+      <div class="widget">
+        <div><img  src="<?php echo base_url() ?>images/slider/campaign-donate.png" alt="Events" /><a href="<?php echo site_url('events')?>" class="button button_gray">Events</a></div>        
       </div>
       <div class="widget">
-       
-        <div><img  src="<?php echo base_url() ?>images/slider/campaign-donate.png" alt="DONATE" /><a href="<?php echo site_url('project/campaign')?>" class="button button_gray">DONATE</a></div>
         
-      </div>
-      <div class="widget">
-        
-        <div><img  src="<?php echo base_url() ?>images/slider/campaign-volunteer.png" alt="VOLUNTEER" /> <a href="project/volunteer" class="button button_gray">VOLUNTEER</a></div>
+        <div><img  src="<?php echo base_url() ?>images/slider/campaign-volunteer.png" alt="Team Wanjiru" /> <a href="project/volunteer" class="button button_gray">Team Wanjiru</a></div>
        
       </div>
       <div class="clear"></div>
     </div>
-  </div> -->
+  </div> 
+
   
 <div class="posts-wrap">
   <div id="home_latest_posts">
